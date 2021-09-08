@@ -1,4 +1,4 @@
-class Comply < Formula
+class ComplyFork < Formula
   desc "Compliance automation framework, focused on SOC2"
   homepage "https://github.com/moov-io/comply-fork"
   url "https://github.com/moov-io/comply-fork/archive/$VERSION.tar.gz"
