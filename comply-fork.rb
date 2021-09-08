@@ -2,7 +2,7 @@ class ComplyFork < Formula
   desc "Compliance automation framework, focused on SOC2"
   homepage "https://github.com/moov-io/comply-fork"
   url "https://github.com/moov-io/comply-fork/archive/v1.5.2.tar.gz"
-  sha256 "18701d5a5b9a9bfe549ea943b6df179d1a996214290ec7a2f581f0f60e3e62b7"
+  sha256 "8ca6efffb861b754f0404607fe9f02489d74a7269e68440f179338b526d37b48"
 
   depends_on "go" => :build
 
