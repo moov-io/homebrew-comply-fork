@@ -4,7 +4,7 @@ VERSION=$1
 SHA=$2
 
 eval "cat <<EOF
-$(<comply.rb.template)
+$(<comply-fork.rb.template)
 EOF
 " > comply-fork.rb
 
