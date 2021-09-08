@@ -6,8 +6,8 @@ SHA=$2
 eval "cat <<EOF
 $(<comply.rb.template)
 EOF
-" > comply.rb
+" > comply-fork.rb
 
-git add comply.rb
+git add comply-fork.rb
 git commit -m "updated to version $VERSION"
 git push
