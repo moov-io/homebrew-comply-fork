@@ -12,7 +12,7 @@ class Comply < Formula
     (buildpath/"src/github.com/moov-io/comply-fork").install buildpath.children
     cd "src/github.com/moov-io/comply-fork" do
       system "make", "brew"
-      bin.install "bin/comply"
+      bin.install "bin/comply-fork"
     end
   end
 
